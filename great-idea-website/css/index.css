@@ -64,123 +64,150 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Your code starts here! */
-body {
-	margin: 0 5% 0% 5%;
-}
-.main-header{
-	width: 100%;
 
-}
-button {
-	vertical-align: middle;
-	width: 15%;
-	background: #FFFFFF;
-	border: none;
+
+
+html {
+	margin-bottom: 50%;
 	padding: 5%;
-	color: gray;
 }
+ div.container {
+	 width: 100%;
+	 border-bottom: 1px solid black;
+	
+ }
 
-div.main-header nav {
+ div.main-header nav {
 	display: inline-block;
-	width: 77%;
-	text-align: center;
+	width: 78%;
 	
 }
 
-img.logo {
-	display: inline-block;
+button {
 	vertical-align: middle;
-	width: 18%;
-	padding: 2% 0 2% 2%;
+	width: 16%;
+	background: #FFFFFF;
+	border: none;
+	color: gray;
+
+}
+
+
+img.logo {
+	vertical-align: middle;
+	width: 19%;
+	margin-left: 2%;
+	
 }
 
 
 
-
-
-
-
-
-
-
-#all-ion {
-	width: 100%;
-	padding: 3% 5% 10% 5%;
-	border-bottom: 1px solid black;
-	text-align: center;
-	height: 50%;
+.left-side, .right-side {
+	padding: 5%;
 }
+
+
+
 
 
 
 .left-side {
 	vertical-align: middle;
 	display: inline-block;
+	width: 49%;	
 	text-align: center;
-	width: 49%;
-	padding-left: 10%;
+	padding: 7%;
 	
 }
 
-div.left-side h1 {
-	font-size: 90px;
-
-
+.left-side h1 {
+	font-size: 80px;
+	
 }
+
 
 .left-side button {
 	border: 1px solid black;
 	width: 50%;
 	padding: 2%;
 	font-size: 15px;
-	margin: 0 auto;
-
+	color: black;
 }
 
-div.right-side {
-	padding-left: 10%;
-	padding-right: 5%;
-	margin: 0 auto;
+.right-side {
 	display: inline-block;
 	width: 50%;
+	padding-left: 5%;
 
 }
 
 img.codeSnippet {
 	vertical-align: middle;
-	margin: 0 auto;
-	height: 50%;
-}
-
-span {
-	display: block;
-	margin-top: 3%;
 
 }
-div.first {
+
+h2 {
+	padding-top: 10%;
+
+}
+
+.first, .second {
 	display: inline-block;
 	width: 49%;
-	height: 15%;
+	height: 20%;
 
+}
+
+div.first{
+	padding-right: 1%;
 }
 
 div.second {
-	display: inline-block;
-	width: 49%;
-	height: 15%;
+	padding-left: 1%;
 }
 
 img.middle-img {
+
 	width: 100%;
-	padding: 3% 0 3% 0;
 }
 
-div.third, div.fourth, div.fifth {
-	width: 31%;
+.threecolumns {
+	padding-bottom: 5%;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+
+
+.third, .fourth, .fifth {
+	width: 33%;
+	height: 70%;
 	display: inline-block;
 }
 
-div.fourth{
-margin: 0 1% 0 1%;
+.third, .fourth {
+	padding-right: 1%;
+}
+
+footer {
+	padding-top: 5%;
+}
+
+footer p#copyright {
+	font-size: smaller;
+	text-align: center;
+	padding-top: 5%;
+
 }
