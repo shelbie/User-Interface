@@ -79,63 +79,71 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
-
 html {
 	margin-bottom: 50%;
 	padding: 5%;
 }
- div.container {
-	 width: 100%;
-	 border-bottom: 1px solid black;
-	
- }
+
+h2, h3 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.container {
+	margin-top: 30px;
+	width: 100%;
+	border-bottom: 1px solid black;  
+}
+.main-header {
+	overflow: hidden;
+	background-color: darkgreen;
+	position: fixed;
+	top: 0;
+	width: 90%;
+	display: inline-block;
+}
 
  div.main-header nav {
 	display: inline-block;
-	width: 78%;
-	
+	width: 78%;	
 }
 
 button {
 	vertical-align: middle;
 	width: 16%;
-	background: #FFFFFF;
+	padding: 2%;
+	background: none;
 	border: none;
 	color: gray;
-
 }
 
 
 img.logo {
 	vertical-align: middle;
 	width: 19%;
-	margin-left: 2%;
-	
+	margin-left: 2%;	
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
 }
 
-
-
-.left-side, .right-side {
+.left-right {
 	padding: 5%;
+	border-bottom: 1px solid black;
 }
-
-
-
-
 
 
 .left-side {
 	vertical-align: middle;
 	display: inline-block;
 	width: 49%;	
-	text-align: center;
-	padding: 7%;
-	
+	text-align: center;	
 }
 
 .left-side h1 {
 	font-size: 80px;
-	
 }
 
 
@@ -149,45 +157,36 @@ img.logo {
 
 .right-side {
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 	padding-left: 5%;
-
 }
 
 img.codeSnippet {
 	vertical-align: middle;
-
 }
 
 h2 {
 	padding-top: 10%;
-
 }
 
-.first, .second {
+
+div.first, div.second {
 	display: inline-block;
 	width: 49%;
-	height: 20%;
-
 }
 
-div.first{
-	padding-right: 1%;
-}
-
-div.second {
-	padding-left: 1%;
+.twocolumns .threecolumns p {
+	font-family: 'Shadows+Into+Light';
 }
 
 img.middle-img {
-
+	padding:  5% 0 5% 0;
 	width: 100%;
 }
 
-.threecolumns {
-	padding-bottom: 5%;
-	margin: 0 auto;
+div.threecolumns {
 	border-bottom: 1px solid black;
+	padding-bottom: 5%;
 }
 
 
@@ -209,5 +208,5 @@ footer p#copyright {
 	font-size: smaller;
 	text-align: center;
 	padding-top: 5%;
-
+	margin-bottom: 15%;
 }
