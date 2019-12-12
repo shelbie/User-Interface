@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -63,4 +64,149 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Your code starts here! */
+
+
+html {
+	margin-bottom: 50%;
+	padding: 5%;
+}
+
+h2, h3 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.container {
+	margin-top: 30px;
+	width: 100%;
+	border-bottom: 1px solid black;  
+}
+.main-header {
+	overflow: hidden;
+	background-color: darkgreen;
+	position: fixed;
+	top: 0;
+	width: 90%;
+	display: inline-block;
+}
+
+ div.main-header nav {
+	display: inline-block;
+	width: 78%;	
+}
+
+button {
+	vertical-align: middle;
+	width: 16%;
+	padding: 2%;
+	background: none;
+	border: none;
+	color: gray;
+}
+
+
+img.logo {
+	vertical-align: middle;
+	width: 19%;
+	margin-left: 2%;	
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+}
+
+.left-right {
+	padding: 5%;
+	border-bottom: 1px solid black;
+}
+
+
+.left-side {
+	vertical-align: middle;
+	display: inline-block;
+	width: 49%;	
+	text-align: center;	
+}
+
+.left-side h1 {
+	font-size: 80px;
+}
+
+
+.left-side button {
+	border: 1px solid black;
+	width: 50%;
+	padding: 2%;
+	font-size: 15px;
+	color: black;
+}
+
+.right-side {
+	display: inline-block;
+	width: 49%;
+	padding-left: 5%;
+}
+
+img.codeSnippet {
+	vertical-align: middle;
+}
+
+h2 {
+	padding-top: 10%;
+}
+
+
+div.first, div.second {
+	display: inline-block;
+	width: 49%;
+}
+
+.twocolumns .threecolumns p {
+	font-family: 'Shadows+Into+Light';
+}
+
+img.middle-img {
+	padding:  5% 0 5% 0;
+	width: 100%;
+}
+
+div.threecolumns {
+	border-bottom: 1px solid black;
+	padding-bottom: 5%;
+}
+
+
+.third, .fourth, .fifth {
+	width: 33%;
+	height: 70%;
+	display: inline-block;
+}
+
+.third, .fourth {
+	padding-right: 1%;
+}
+
+footer {
+	padding-top: 5%;
+}
+
+footer p#copyright {
+	font-size: smaller;
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 15%;
+}
